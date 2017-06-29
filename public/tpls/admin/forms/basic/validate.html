@@ -1,0 +1,41 @@
+<div class="col-md-12">
+    <div class="card">
+        <div class="header">
+            <h4 class="title">Forms Validate</h4>
+            <p class="category">Aula 3.</p>
+        </div>
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Form User</h4>
+                            </div>
+                            <div class="content">
+                                <form name="formValidate" ng-submit="submitFormValidate()" novalidate>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="form-group" ng-class="formValidate.cpf.$invalid || !validateCpf(user.cpf) ? 'has-error' : 'has-success'">
+                                                <label>CPF <span class="fg-thunderbird">*</span></label>
+                                                <input type="text" name="cpf" class="form-control" placeholder="CPF" 
+                                                    ng-model="user.cpf" 
+                                                    ng-maxlength="14" 
+                                                    ng-minlength="8"
+                                                    required>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-info btn-fill pull-right" ng-disabled="formValidate.$invalid || !validateCpf(user.cpf)">Save Profile</button>
+                                    <div class="clearfix"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>      
+        </div>
+    </div>
+</div>

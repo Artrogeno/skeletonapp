@@ -6,13 +6,14 @@
  */
     angular.module('skeletonApp', [
         'ui.bootstrap',
+        'oc.lazyLoad',
         'ui.router',
         'satellizer',
         'ngAnimate',
         'ngSanitize',
         'ngResource',
         'ngStorage',
-        'oc.lazyLoad'
+        'ngToast'
     ]);
 
 })();
