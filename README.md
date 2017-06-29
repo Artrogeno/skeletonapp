@@ -1,0 +1,2 @@
+# skeletonapp
+AngularJs Start Project
