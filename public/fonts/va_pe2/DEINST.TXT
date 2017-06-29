@@ -1,0 +1,19 @@
+Deinstallation der TrueType-Schulschriften:
+
+1) Löschen Sie in der Systemsteuerung die entspr. Schriften.
+
+2) Löschen Sie das Verzeichnis, in das Sie diese Schriften
+   installiert haben (normalerweise ".......\KEYTRANS"
+
+3) Löschen Sie im Windows-Verzeichnis die Datei:
+
+   "keytrans.ini".
+
+4) Löschen Sie im Programm-Manager die hinzugefügten 
+   Symbole (Icons) mit der Taste <Entf> bzw. <Del>
+
+
+
+© 1995 Rainer Will Softwareentwicklung, 
+       Napoleonstock 6,
+       35641 Schöffengrund

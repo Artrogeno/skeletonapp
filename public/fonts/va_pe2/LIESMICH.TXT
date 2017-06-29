@@ -1,0 +1,49 @@
+Wenn Sie die TrueType-Schriften installiert haben,
+so erscheinen jetzt in der Schriftenliste Ihrer 
+Textverarbeitung die folgenden Schriften:
+
+Die Schrift "LA El 2", Lateinische AS mit 2 Linien,
+"VA Pe 2" Vereinfachte AS mit 2 Linien, sowie "DR BY 2"
+und "DR HH 2", Bayerische und Hamburgische Druckschriften.
+
+
+Zur Herstellung der korrekten Verbindungen der Schreibschriften
+gehen Sie wie folgt vor:
+
+Wenn Sie das Icon "KeyTrans" starten, so bleibt es zunächst 
+unsichtbar. Das Programm ist jedoch im Hintergrund aktiv.
+
+Als Hotkey ist zunächst die Tastenkombination 
+<Strg>-<Shift>-<T> eingestellt. Wenn Sie diese Tasten 
+gleichzeitig drücken, so erscheint das Programm am oberen 
+Bildschirmrand und zeigt die eingestellte Schriftart an.
+
+Hiermit können jetzt Texte in der entspr. Schrift erfasst 
+werden, die Verbindungen der Buchstaben werden in Ihrer 
+Textverarbeitung automatisch hergestellt. 
+
+Mit dieser eingestellten Tastenkombination kann KeyTrans nun 
+jederzeit ein- und ausgeschaltet werden.
+
+Zur Benutzung anderer Schriftarten mit KeyTrans wird rechts 
+das Pfeilsymbol angeklickt, hier kann die Schrift ausgewählt 
+werden.
+
+
+Die Schriften mit Lineatur enthalten den Zeilenanfang auf der 
+Taste "[", das Zeilenende auf "]". 
+
+Das Leerzeichen liegt auf der Taste "#".  Ein verkürztes 
+Leerzeichen zur Erstellung rechtsbündig korrekter Zeilen 
+liegt auf dem Anführungszeichen (Shift-#).
+
+
+
+Copyright © 1995 
+
+Rainer Will Softwareentwicklung,
+Napoleonstock 6,
+35641 Schöffengrund
+Tel: 06445/7944
+Fax: 06445/7549
+

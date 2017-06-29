@@ -1,0 +1,28 @@
+<div class="wrapper">
+    <!-- LEFT SIDEBAR -->    
+    <div class="sidebar" 
+        data-color="green" 
+        data-image="img/sidebar-5.jpg" 
+        ng-include="'tpls/admin/blocks/sidebar.html'"
+    >
+    </div>
+
+    <!-- MAIN PAINEL -->
+    <div class="main-panel">
+
+        <!-- NAV BAR TOP -->
+        <nav class="navbar navbar-default navbar-fixed"
+            ng-include="'tpls/admin/blocks/navbar.html'"
+        ></nav>
+        
+        <!-- CONTENT -->
+        <div class="content" ui-view></div>
+        
+        <!-- FOOTER -->
+        <footer class="footer"
+            ng-include="'tpls/admin/blocks/footer.html'">
+        </footer>
+    
+    </div>
+    
+</div>

@@ -1,0 +1,69 @@
+<div class="col-md-12">
+    <div class="card">
+        <div class="header">
+            <h4 class="title">Forms Basic</h4>
+            <p class="category">Aula 2.</p>
+        </div>
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Form User</h4>
+                            </div>
+                            <div class="content">
+                                <form name="formBasic" ng-submit="submitFormBasic()" novalidate>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="form-group" ng-class="formBasic.nickname.$invalid ? 'has-error' : 'has-success'">
+                                                <label>Nick Name <span class="fg-thunderbird">*</span></label>
+                                                <input type="text" name="nickname" class="form-control" placeholder="Nick Name" 
+                                                    ng-model="user.nickname" ng-maxlength="10" ng-minlength="4" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group" ng-class="formBasic.username.$invalid ? 'has-error' : 'has-success'">
+                                                <label>Username <span class="fg-thunderbird">*</span></label>
+                                                <input type="text" name="username" class="form-control" placeholder="Username" 
+                                                    ng-model="user.username" ng-maxlength="30" ng-minlength="6" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group" ng-class="formBasic.email.$invalid ? 'has-error' : 'has-success'">
+                                                <label for="exampleInputEmail1">Email address <span class="fg-thunderbird">*</span></label>
+                                                <input type="email" name="email" class="form-control" placeholder="Email" 
+                                                    ng-model="user.email" required>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group" ng-class="formBasic.firstname.$invalid ? 'has-error' : 'has-success'">
+                                                <label>First Name</label>
+                                                <input type="text" name="firstname" class="form-control" placeholder="First Name" 
+                                                    ng-model="user.firstname" ng-maxlength="15" ng-minlength="3">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group" ng-class="formBasic.lastname.$invalid ? 'has-error' : 'has-success'">
+                                                <label>Last Name</label>
+                                                <input type="text" name="lastname" class="form-control" placeholder="Last Name"
+                                                    ng-model="user.lastname" ng-maxlength="15" ng-minlength="3">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-info btn-fill pull-right" ng-disabled="formBasic.$invalid">Save Profile</button>
+                                    <div class="clearfix"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>      
+        </div>
+    </div>
+</div>

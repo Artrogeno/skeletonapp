@@ -1,0 +1,56 @@
+<div class="sidebar-wrapper">
+    <div class="logo">
+        <a href="#" class="simple-text">
+            Skeleton App
+        </a>
+    </div>
+
+    <ul class="nav">
+        <li ui-sref-active="active">
+            <a ui-sref="main.dash">
+                <i class="pe-7s-graph"></i>
+                <p>Dashboard</p>
+            </a>
+        </li>
+
+        <li class="dropdown" ui-sref-active="active">
+            <a class="dropdown-toggle" data-toggle="collapse" class="collapsed" ng-click="FormsCollapsed = !FormsCollapsed">
+                <i class="pe-7s-note2"></i>
+                <p>Forms</p> 
+                <i class="fa ic-small" ng-class="{'fa-angle-right': !FormsCollapsed, 'fa-angle-down': FormsCollapsed}"></i></a>
+            <div class="collapse" uib-collapse="!FormsCollapsed">
+                <ul class="nav mt-0">
+                    <li ui-sref-active="active">
+                        <a ui-sref="main.forms.basic">
+                            Basic
+                        </a>
+                    </li>
+                </ul>
+            </div>    
+        </li>
+ 
+        <li class="dropdown" ui-sref-active="active">
+            <a class="dropdown-toggle" data-toggle="collapse" class="collapsed" ng-click="ConfCollapsed = !ConfCollapsed">
+                <i class="pe-7s-config"></i>
+                <p>Configurações</p> 
+                <i class="fa ic-small" ng-class="{'fa-angle-right': !ConfCollapsed, 'fa-angle-down': ConfCollapsed}"></i></a>
+            <div class="collapse" uib-collapse="!ConfCollapsed">
+                <ul class="nav mt-0">
+                    <li ui-sref-active="active">
+                        <a ui-sref="main.conf.mail">
+                            <i class="pe-7s-mail" style="margin-top: -5px;"></i>
+                            E-mails
+                        </a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="main.conf.maps">
+                            <i class="pe-7s-map-marker" style="margin-top: -5px;"></i>
+                            Geolocalização
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="sidebar-background" style="background-image: url(img/sidebar-5.jpg) "></div>

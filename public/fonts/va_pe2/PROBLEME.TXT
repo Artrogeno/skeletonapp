@@ -1,0 +1,19 @@
+Sollten Sie Probleme mit dem Programm KeyTrans haben so gehen Sie
+zunächst so vor:
+
+
+1) In Ihrer Anwendung erscheinen nicht die korrekten Buchstaben:
+
+Stellen Sie sicher, daß Sie in Ihrer Textverarbeitung eine Schriftart 
+verwenden, die der in KeyTrans eingestellten Tabelle entspricht, z.B.
+Schrift "VA..." für Vereinfachte, Schrift "LA..." für Lateinische 
+Ausgangsschrift. Bei Verwendung der Druckschriften muß KeyTrans
+ausgeschaltet sein.
+
+
+2) Problem in WinWord:
+
+Verwenden Sie das Anführungszeichen (Shift-#) als verkürztes Leerzeichen,
+so muß im Menü "Extras", "AutoKorrektur" die Option "Gerade Anführungszeichen
+durch typographische ersetzen" deaktiviert sein.
+
