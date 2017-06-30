@@ -16,6 +16,19 @@
         $urlRouterProvider.otherwise('dash');
 
         $stateProvider
+        .state('auth', {
+            url: '/',
+            abstract: true,
+            templateUrl: 'tpls/auth/auth.html'
+        })
+        .state('auth.signin', {
+            url: 'auth/signin',
+            templateUrl: 'tpls/auth/signin.html',
+            controller: 'SigninCtrl',
+            resolve: load([
+                'mdSingnin'
+            ])
+        })
         .state('main', {
             url: '/',
             abstract: true,

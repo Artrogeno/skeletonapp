@@ -23,6 +23,14 @@
         //         'components/angular-ui-select/dist/select.min.css'
         //     ]
         // },
+        // AUTH
+        {
+            name: 'mdSingnin',
+            files:  [
+                'app/controllers/auth/signin.ctrl.js'
+            ]
+        },
+        // MAIN
         {
             name: 'mdMain',
             files:  [

@@ -3583,3 +3583,12 @@ footer {
 .bg-gray			{ background: #9C9288; }
 .bg-silver			{ background: #BFBFBF; }
 .bg-light			{ background: #E4F1FE; }
+
+/* LOGO */
+img.logo{
+  max-width: 120px !important;
+  min-width: 50px !important;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}

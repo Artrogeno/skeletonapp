@@ -7,7 +7,9 @@
     angular.module('skeletonApp')
     // ROUTER
     .constant('URI', {
-        api: 'http://www.artrogenos.16mb.com/',
+        API     : 'http://www.artrogenos.16mb.com/',
+        AUTH    : 'http://www.artrogenos.16mb.com/authenticate',
+	    LOGOUT  : 'http://www.artrogenos.16mb.com/logout'
     });
     
 })();
